@@ -1,5 +1,4 @@
-digit = float(input("Enter the sine value you want to calculate in radians : \n"))
-radian = 3.141592654/digit
+radian = float(input("Enter the sine value you want to calculate in radians : \n"))
 ans = radian - (radian**3/6)
 ans1 = ans + (radian**5/120)
 ans2 = ans1 - (radian**7/5040)
